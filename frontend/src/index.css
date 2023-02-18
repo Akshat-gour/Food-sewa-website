@@ -1,0 +1,216 @@
+.ngoheader {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.image {
+    width: 750px;
+}
+.cards {
+    position: relative;
+}
+.cardBody {
+    position: absolute;
+    bottom: 5px;
+}
+.Contain {
+    margin-top: 50px;
+    display: flex;
+}
+.Container1 {
+    padding: 5px;
+    padding-top: 50px;
+    position: relative;
+}
+.Container2 {
+    width: 650px;
+}
+.text {
+    font-family: 'Roboto', sans-serif;
+}
+.button {
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.btn1 {
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+.btn2 {
+    margin-left: 20px;
+    margin-bottom: 0;
+    background-color: black;
+    color: white;
+}
+main {
+    min-height: 80vh;
+}
+
+h3 {
+    padding: 1rem 0;
+}
+
+h1 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+
+h2 {
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+}
+.incMoreHeight {
+    margin-top: 100px;
+}
+.incMHeight {
+    margin-top: 140px;
+}
+.incHeight {
+    margin-top: 40px;
+}
+.imgheight {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tble {
+    width: 100%;
+}
+
+.requestHeading {
+    padding: 0.5rem 0;
+}
+.rating span {
+    margin: 0.1rem;
+}
+
+.Request {
+    margin-bottom: 2.9rem;
+}
+.no_data {
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 610px; */
+    width: 60%;
+}
+
+/* Responsive Query */
+@media screen and (max-width: 1200px) {
+    .image {
+        width: 720px;
+    }
+    .btn1 {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 1070px) {
+    .image {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .image {
+        width: 680px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .image {
+        width: 500px;
+    }
+    .Container2 {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 890px) {
+    .image {
+        width: 450px;
+    }
+}
+@media screen and (max-width: 790px) {
+    .image {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Container2 {
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+    .image {
+        width: 450px;
+    }
+    .Contain {
+        margin-top: 20px;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .button {
+        margin-top: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        width: fit-content;
+    }
+    .btn1 {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .no_data {
+        width: 80%;
+    }
+    .container_donation {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 573px) {
+    .Contain {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 483px) {
+    .image {
+        width: 120%;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 434px) {
+    .image {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin: 0 auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .btn2 {
+        margin-left: 10px;
+    }
+    .btn1 {
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Contain {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

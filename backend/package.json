@@ -1,0 +1,46 @@
+{
+    "name": "food_sewa",
+    "version": "1.0.0",
+    "description": "A Food Donation Website",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node server",
+        "server": "nodemon server",
+        "build": "npm i",
+        "client": "npm start --prefix frontend",
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "data:import": "node seeder",
+        "data:destroy": "node seeder -d",
+        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    },
+    "author": "Akshat",
+    "license": "",
+    "dependencies": {
+        "@emotion/react": "^11.9.3",
+        "@emotion/styled": "^11.9.3",
+        "@google-cloud/storage": "^6.9.3",
+        "@mui/material": "^5.8.5",
+        "@mui/styled-engine-sc": "^5.8.0",
+        "bcryptjs": "^2.4.3",
+        "colors": "^1.4.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-async-handler": "^1.1.4",
+        "firebase": "^9.17.1",
+        "firebase-admin": "^11.5.0",
+        "firebase-functions": "^4.2.1",
+        "formidable-serverless": "^1.1.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.10.6",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.4",
+        "styled-components": "^5.3.5",
+        "uuid-v4": "^0.1.0"
+    },
+    "devDependencies": {
+        "concurrently": "^5.3.0",
+        "nodemon": "^2.0.4"
+    }
+}
