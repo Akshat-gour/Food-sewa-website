@@ -16,15 +16,21 @@ However, by distributing these food leftovers to people who are unable to afford
 
 Landing Screen
 
-![screenshot](https://github.com/Akshat-gour/Food-sewa/blob/master/uploads/landing.png?raw=true)
+![screenshot](https://github.com/Akshat-gour/Food-sewa-website/blob/master/uploads/landing.png?raw=true)
 
 Home Screen
 
-![screenshot](https://github.com/Akshat-gour/Food-sewa/blob/master/uploads/home.png?raw=true)
+![screenshot](https://github.com/Akshat-gour/Food-sewa-website/blob/master/uploads/home.png?raw=true)
 
 Dashboard Screen
 
-![screenshot](https://github.com/Akshat-gour/Food-sewa/blob/master/uploads/dashboard.png?raw=true)
+![screenshot](https://github.com/Akshat-gour/Food-sewa-website/blob/master/uploads/dashboard.png?raw=true)
+
+Donate Screen
+
+![screenshot](https://github.com/Akshat-gour/Food-sewa-website/blob/master/uploads/donate.png?raw=true)
+
+
 
 ### Key Users
 
